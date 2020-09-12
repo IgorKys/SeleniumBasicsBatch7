@@ -61,6 +61,7 @@ public class webTablesPagination2 {
 					confirmDelete.click();
 					break;
 				}
+
 			}
 			WebElement next = driver.findElement(By.linkText("Next"));
 			next.click();

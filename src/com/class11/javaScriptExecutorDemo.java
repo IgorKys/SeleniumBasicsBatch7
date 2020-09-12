@@ -23,7 +23,8 @@ public class javaScriptExecutorDemo {
 		username.sendKeys("Admin");
 		password.sendKeys("Hum@nhrm123");
 		
-		JavascriptExecutor js = (JavascriptExecutor)driver;js.executeScript("arguments[0].style.backgroundColor='red'", password);
+		JavascriptExecutor js = (JavascriptExecutor)driver;
+		js.executeScript("arguments[0].style.backgroundColor='red'", password);
 		Thread.sleep(2000);
 		js.executeScript("arguments[0].click();", loginButton);
 	}

@@ -29,8 +29,8 @@ public class handleDynamicTable {
 			String rowText = rows.get(i).getText();
 			System.out.println(rowText);
 
-			if (rowText.contains("FamilyAlbum")) {
-				driver.findElements(By.xpath("//table[@id = 'ctl00_MainContent_orderGrid']/tbody/tr/td[1]")).get(i - 1)
+			if (rowText.contains("MyMoney")) {
+				driver.findElements(By.xpath("//table[@id = 'ctl00_MainContent_orderGrid']/tbody/tr/td[1]")).get(i-1)
 						.click();
 				// break;
 			}

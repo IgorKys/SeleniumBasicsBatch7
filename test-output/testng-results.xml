@@ -1,17 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="60" started-at="2020-08-29T06:59:43 PDT" finished-at="2020-08-29T06:59:43 PDT">
+  <suite name="Default suite" duration-ms="26458" started-at="2020-09-02T22:05:48 PDT" finished-at="2020-09-02T22:06:14 PDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="60" started-at="2020-08-29T06:59:43 PDT" finished-at="2020-08-29T06:59:43 PDT">
-      <class name="com.syntax.test.TestNGTest">
-        <test-method status="PASS" signature="hello()[pri:0, instance:com.syntax.test.TestNGTest@65e2dbf3]" name="hello" duration-ms="11" started-at="2020-08-29T06:59:43 PDT" finished-at="2020-08-29T06:59:43 PDT">
+    <test name="Default test" duration-ms="26458" started-at="2020-09-02T22:05:48 PDT" finished-at="2020-09-02T22:06:14 PDT">
+      <class name="com.test.LoginTestHW">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.LoginTestHW@80503]" name="setUp" is-config="true" duration-ms="7926" started-at="2020-09-02T22:05:48 PDT" finished-at="2020-09-02T22:05:56 PDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- hello -->
-      </class> <!-- com.syntax.test.TestNGTest -->
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="passwordEmpy()[pri:0, instance:com.test.LoginTestHW@80503]" name="passwordEmpy" duration-ms="306" started-at="2020-09-02T22:05:56 PDT" finished-at="2020-09-02T22:05:56 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passwordEmpy -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.LoginTestHW@80503]" name="tearDown" is-config="true" duration-ms="989" started-at="2020-09-02T22:05:56 PDT" finished-at="2020-09-02T22:05:57 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.LoginTestHW@80503]" name="setUp" is-config="true" duration-ms="6710" started-at="2020-09-02T22:05:57 PDT" finished-at="2020-09-02T22:06:04 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="userNameAndPasswordEmpty()[pri:0, instance:com.test.LoginTestHW@80503]" name="userNameAndPasswordEmpty" duration-ms="209" started-at="2020-09-02T22:06:04 PDT" finished-at="2020-09-02T22:06:04 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userNameAndPasswordEmpty -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.LoginTestHW@80503]" name="tearDown" is-config="true" duration-ms="1087" started-at="2020-09-02T22:06:04 PDT" finished-at="2020-09-02T22:06:05 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.LoginTestHW@80503]" name="setUp" is-config="true" duration-ms="6792" started-at="2020-09-02T22:06:05 PDT" finished-at="2020-09-02T22:06:12 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="userNameAndWrongPassword()[pri:0, instance:com.test.LoginTestHW@80503]" name="userNameAndWrongPassword" duration-ms="1189" started-at="2020-09-02T22:06:12 PDT" finished-at="2020-09-02T22:06:13 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userNameAndWrongPassword -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.LoginTestHW@80503]" name="tearDown" is-config="true" duration-ms="1183" started-at="2020-09-02T22:06:13 PDT" finished-at="2020-09-02T22:06:14 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.LoginTestHW -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
